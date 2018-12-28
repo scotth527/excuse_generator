@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.center {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#excuse {
+  margin: 0;
+}
+/* 
+    body{
+        background: #BDBDBD;
+    }
+    
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
